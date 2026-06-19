@@ -1,0 +1,17 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px;
+  margin: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
