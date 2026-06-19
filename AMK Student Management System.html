@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMK Student Management System</title>
+
+    <link rel="stylesheet" href="AMK Student Management System style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🎓 AMK Student Management System</h1>
+
+        <!-- Student Form -->
+        <div class="form">
+
+            <input type="text" id="name" placeholder="Student Name">
+
+            <input type="text" id="course" placeholder="Course">
+
+            <input type="email" id="email" placeholder="Email">
+
+            <button onclick="addStudent()">
+                Add Student
+            </button>
+
+        </div>
+
+        <!-- Search -->
+
+        <input type="text"
+               id="search"
+               placeholder="Search Student..."
+               onkeyup="searchStudent()">
+
+        <!-- Total -->
+
+        <h3>Total Students :
+            <span id="total">
+                0
+            </span>
+        </h3>
+
+        <!-- Table -->
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Name</th>
+
+                    <th>Course</th>
+
+                    <th>Email</th>
+
+                    <th>Action</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="studentList">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+<script src="AMK Student Management System script.js"></script>
+
+</body>
+</html>
