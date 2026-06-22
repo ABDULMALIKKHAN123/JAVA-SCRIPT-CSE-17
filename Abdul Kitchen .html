@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul's Kitchen</title>
+    <link rel="stylesheet" href="Abdul Kitchen style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍽️ Abdul's Kitchen</h1>
+    <p>Fresh • Tasty • Affordable</p>
+</header>
+
+<div class="menu">
+
+    <div class="card">
+        <h2>🍔 Burger</h2>
+        <p>Price: ₹120</p>
+        <button onclick="order('Burger',120)">Order</button>
+    </div>
+
+    <div class="card">
+        <h2>🍕 Pizza</h2>
+        <p>Price: ₹250</p>
+        <button onclick="order('Pizza',250)">Order</button>
+    </div>
+
+    <div class="card">
+        <h2>🥤 Cold Drink</h2>
+        <p>Price: ₹50</p>
+        <button onclick="order('Cold Drink',50)">Order</button>
+    </div>
+
+</div>
+
+<h2>🛒 Your Order</h2>
+
+<ul id="cart"></ul>
+
+<h3>Total Bill: ₹<span id="total">0</span></h3>
+
+<script src="Abdul Kitchen script.js"></script>
+
+</body>
+</html>
