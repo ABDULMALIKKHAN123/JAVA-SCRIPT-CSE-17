@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Attendance Card</title>
+    <link rel="stylesheet" href="Mini Attendance Card style.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>Attendance Card</h2>
+
+    <div class="student">
+        <p><strong>Name:</strong> Abdul Malik Khan</p>
+        <p><strong>Roll No:</strong> 101</p>
+    </div>
+
+    <div class="buttons">
+        <button class="present" onclick="markAttendance('Present')">
+            Present
+        </button>
+
+        <button class="absent" onclick="markAttendance('Absent')">
+            Absent
+        </button>
+    </div>
+
+    <div class="status">
+        Status:
+        <span id="result">Not Marked</span>
+    </div>
+
+</div>
+
+<script src="Mini Attendance Card script.js"></script>
+</body>
+</html>

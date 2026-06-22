@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f2f5f9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    width:320px;
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    text-align:center;
+}
+
+h2{
+    color:#333;
+    margin-bottom:20px;
+}
+
+.student{
+    text-align:left;
+    margin-bottom:20px;
+    line-height:1.8;
+}
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+}
+
+button{
+    width:45%;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    color:white;
+    font-size:16px;
+}
+
+.present{
+    background:#28a745;
+}
+
+.present:hover{
+    background:#218838;
+}
+
+.absent{
+    background:#dc3545;
+}
+
+.absent:hover{
+    background:#c82333;
+}
+
+.status{
+    font-size:18px;
+    font-weight:bold;
+}
+
+#result{
+    color:blue;
+}
