@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CGPA Calculator</title>
+<link rel="stylesheet" href="CGPA Calculator style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>🎓 CGPA Calculator</h1>
+
+<table>
+
+<tr>
+<th>Subject</th>
+<th>Grade</th>
+<th>Credits</th>
+</tr>
+
+<tr>
+<td>Subject 1</td>
+<td>
+<select class="grade">
+<option value="10">O</option>
+<option value="9">A+</option>
+<option value="8">A</option>
+<option value="7">B+</option>
+<option value="6">B</option>
+<option value="5">C</option>
+<option value="0">F</option>
+</select>
+</td>
+<td><input type="number" class="credit" value="3"></td>
+</tr>
+
+<tr>
+<td>Subject 2</td>
+<td>
+<select class="grade">
+<option value="10">O</option>
+<option value="9">A+</option>
+<option value="8">A</option>
+<option value="7">B+</option>
+<option value="6">B</option>
+<option value="5">C</option>
+<option value="0">F</option>
+</select>
+</td>
+<td><input type="number" class="credit" value="4"></td>
+</tr>
+
+<tr>
+<td>Subject 3</td>
+<td>
+<select class="grade">
+<option value="10">O</option>
+<option value="9">A+</option>
+<option value="8">A</option>
+<option value="7">B+</option>
+<option value="6">B</option>
+<option value="5">C</option>
+<option value="0">F</option>
+</select>
+</td>
+<td><input type="number" class="credit" value="3"></td>
+</tr>
+
+<tr>
+<td>Subject 4</td>
+<td>
+<select class="grade">
+<option value="10">O</option>
+<option value="9">A+</option>
+<option value="8">A</option>
+<option value="7">B+</option>
+<option value="6">B</option>
+<option value="5">C</option>
+<option value="0">F</option>
+</select>
+</td>
+<td><input type="number" class="credit" value="3"></td>
+</tr>
+
+<tr>
+<td>Subject 5</td>
+<td>
+<select class="grade">
+<option value="10">O</option>
+<option value="9">A+</option>
+<option value="8">A</option>
+<option value="7">B+</option>
+<option value="6">B</option>
+<option value="5">C</option>
+<option value="0">F</option>
+</select>
+</td>
+<td><input type="number" class="credit" value="2"></td>
+</tr>
+
+</table>
+
+<button onclick="calculateCGPA()">Calculate</button>
+<button onclick="resetForm()">Reset</button>
+
+<div class="result">
+<h2>CGPA : <span id="cgpa">0.00</span></h2>
+<h2>Percentage : <span id="percentage">0%</span></h2>
+</div>
+
+</div>
+
+<script src="CGPA Calculator script.js"></script>
+
+</body>
+</html>
